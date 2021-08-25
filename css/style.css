@@ -93,7 +93,7 @@ width: 0;
 }
 .myheader{
 	height: 200px;
-	background-color: rgb(90, 26, 69);
+	background-color: rgb(80, 54, 71);
 }
 .myheader .menu{
 padding: 50px;
@@ -134,39 +134,27 @@ font-size: 15px;
 	font-size: 14px;
 	letter-spacing: 2px;
 }
-.container h1{
+.container h2{
 color: azure;
 }
 /* EFFECTS
 ***************/
 
-.glow {
-  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-    -webkit-transition: text-shadow 1s linear;
-       -moz-transition: text-shadow 1s linear;
-         -o-transition: text-shadow 1s linear;
-            transition: text-shadow 1s linear;
+.container {
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  color: white;
+  font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
 }
 
-.glow.in {
+.container h2 {
   text-shadow: 
-    0.025em 0.025em 0.025em rgba(0, 0, 0, 0.8),
-    0 0 0.5em rgba(255, 255, 255, 0.3);
+    0.025em 0.025em 0.025em rgba(245, 4, 4, 0.993),
+    0 0 0.5em rgba(241, 10, 137, 0.959);
 }
 
-.fade {
-  opacity: 0;
-    -webkit-transition: opacity 1s linear;
-       -moz-transition: opacity 1s linear;
-         -o-transition: opacity 1s linear;
-            transition: opacity 1s linear;
-}
-
-.fade.in {
+.body {
   opacity: 1;
+  filter: alpha(opacity=50);
+  zoom: 20;
 }
 
-
-footer{
-	margin-top:800px;
-}
